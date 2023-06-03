@@ -1,0 +1,69 @@
+/* stats  */
+.stats-container {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-stats-container,
+.income-stats-container,
+.expenses-stats-container {
+  width: 30%;
+  min-height: 17rem;
+  display: flex;
+  justify-content: center;
+}
+
+.balance-stats-container {
+  background-color: #ecfccb;
+  border: 0.1rem solid #84cc16;
+}
+
+.income-stats-container {
+  background-color: #cffafe;
+  border: 0.1rem solid #06b6d4;
+}
+
+.expenses-stats-container {
+  background-color: #cbd5e1;
+  border: 0.1rem solid #7c3aed;
+}
+
+.stats-img-container {
+  width: 40%;
+  max-width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.balance-img,
+.income-img,
+.expenses-img {
+  width: 80%;
+}
+
+.stats {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2em;
+}
+
+.stats-heading {
+  font-size: 1.6rem;
+  color: #7e858e;
+}
+
+.balance-info,
+.income-info,
+.expenses-info {
+  font-size: 2.2rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+/* stats ends */

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.border {
+  border-radius: 2rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 5em;
+  }
+
+  .activity-container {
+    gap: 2em;
+  }
+
+  .transaction-container {
+    width: 40%;
+  }
+
+  .history-container {
+    width: 58%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 43%;
+  }
+  .container {
+    padding: 2.5em;
+  }
+
+  .user-info-container {
+    padding: 1em;
+    text-align: center;
+    align-items: center;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .balance-stats-container,
+  .income-stats-container,
+  .expenses-stats-container {
+    width: 100%;
+  }
+
+  .activity-container {
+    flex-direction: column;
+    gap: 3.6em;
+  }
+
+  .transaction-container {
+    width: 100%;
+  }
+
+  .history-container {
+    width: 100%;
+  }
+
+  .transaction-container,
+  .history-container {
+    min-height: 100px;
+  }
+}
